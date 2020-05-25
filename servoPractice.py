@@ -8,7 +8,7 @@ GPIO.setmode(GPIO.BCM)
 
 GPIO.setup(14, GPIO.OUT)
 p = GPIO.PWM(14,50)
-p.start(2.5)
+p.start(2.5)#starting position
 time.sleep(1)
 
 try:
